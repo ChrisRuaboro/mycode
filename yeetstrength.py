@@ -28,19 +28,19 @@ def initiateBoosters():
 
 totalyeetdistance = boosted * yeet_distance
 
-if totalyeetdistance <= 2500
+if totalyeetdistance <= 2500:
     yeetstrength = "Spongebob Arms"
     print("Your yeet strength is:", yeetstrength)
 
-elif totalyeetdistance <= 8999
+elif totalyeetdistance <= 8999:
     yeetstrength = "small yeet energy"
     print("Your yeet strength is:", yeetstrength)
 
-elif totalyeetdistance <= 15000
+elif totalyeetdistance <= 15000:
     yeetstrength = "OVER9000!!!"
     print("Your yeet strength is:", yeetstrength)
 
-elif totalyeetdistance <= 25000
+elif totalyeetdistance <= 25000:
     yeetstrength = "BIG YEET ENERGY"
     print("Your yeet strength is:", yeetstrength)
 
