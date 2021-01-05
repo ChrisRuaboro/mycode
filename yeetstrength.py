@@ -17,19 +17,22 @@ while True:
 
 yeetstrength = " "
 totalyeetdistance = 0
-
+totalboosted = 1
 
 def initiateBoosters():
     boosted = 1
     for _ in range(3):
         input("Press ENTER to boost your yeet distance!")
-        boostmultiply = randint(0,10)
+        boostmultiply = randint(0,20)
         boosted *= boostmultiply
         print(f"With a random boost of {boostmultiply}, for a total boost of {boosted}")
-
+    totalboosted = boosted
+    
 initiateBoosters()
 
-totalyeetdistance = boosted * yeet_distance
+totalyeetdistance = totalboosted * yeet_distance
+
+print(f"Total yeet distance is {totalyeetdistance}")
 
 if totalyeetdistance <= 2500:
     yeetstrength = "Spongebob Arms"
