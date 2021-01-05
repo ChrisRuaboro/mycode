@@ -17,14 +17,17 @@ while True:
 
 yeetstrength = " "
 totalyeetdistance = 0
-boosted = 1
+
 
 def initiateBoosters():
+    boosted = 1
     for _ in range(3):
-        print("Getting boost value")
+        input("Press ENTER to boost your yeet distance!")
         boostmultiply = randint(0,10)
         boosted *= boostmultiply
         print(f"With a random boost of {boostmultiply}, for a total boost of {boosted}")
+
+initiateBoosters()
 
 totalyeetdistance = boosted * yeet_distance
 
