@@ -47,13 +47,13 @@ while True:
     usery = asknumber()
     operand = askoperand()
     if operand == "+":
-        print(add(userx, usery))
+        print(userx, operand, usery, "=", add(userx, usery))
     elif operand == "-":
-        print(subtract(userx, usery))
+        print(userx, operand, usery, "=", subtract(userx, usery))
     elif operand == "/":
-        print(divide(userx, usery))
+        print(userx, operand, usery, "=", divide(userx, usery))
     elif operand == "*":
-        print(multiply(userx, usery))
+        print(userx, operand, usery, "=", multiply(userx, usery))
     else:
         print("something went wrong")
     calcagain = input("Do you want to calculate again? [Y/N]")
