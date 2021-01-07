@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Alta3 Research || Author: Christopher.ruaboro@outlook.com"""
+
 # defining operations
 operators = ["+", "-", "/", "*"]
 
